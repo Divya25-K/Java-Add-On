@@ -1,0 +1,118 @@
+/////////////////////////
+Output On Java Console : 
+/////////////////////////
+
+========= PAYROLL MANAGEMENT SYSTEM =========
+1. Add Employee
+2. View All Employees
+3. Search Employee
+4. Generate Salary Slip
+5. Exit
+=============================================
+Enter choice: 2
+-----------------------------------------------------------------------------------
+ID    Name         Age   Dept       Days       Leaves     Base Salary  Final Salary
+-----------------------------------------------------------------------------------
+101   Ram          25    IT         30         2          30000.00     28000.00   
+102   Priya        24    HR         30         1          20000.00     19500.00   
+103   Arun         27    SALES      30         3          25000.00     22900.00   
+104   Divya        26    FINANCE    30         2          28000.00     26200.00   
+-----------------------------------------------------------------------------------
+========= PAYROLL MANAGEMENT SYSTEM =========
+1. Add Employee
+2. View All Employees
+3. Search Employee
+4. Generate Salary Slip
+5. Exit
+=============================================
+Enter choice: 1
+Enter ID: 105
+Enter Name: Dilo
+Enter Age: 20
+Select Department:
+1. HR
+2. IT
+3. SALES
+4. FINANCE
+Enter Department Choice: 3
+Leaves Taken: 4
+Employee Added Successfully!
+========= PAYROLL MANAGEMENT SYSTEM =========
+1. Add Employee
+2. View All Employees
+3. Search Employee
+4. Generate Salary Slip
+5. Exit
+=============================================
+Enter choice: 3
+Enter Employee ID to Search: 101
+Employee Found
+-----------------------------
+ID          : 101
+Name        : Ram
+Age         : 25
+Department  : IT
+Total Days  : 30
+Leaves      : 2
+Base Salary : 30000.0
+Final Salary: 28000.0
+-----------------------------
+========= PAYROLL MANAGEMENT SYSTEM =========
+1. Add Employee
+2. View All Employees
+3. Search Employee
+4. Generate Salary Slip
+5. Exit
+=============================================
+Enter choice: 4
+Enter Employee ID: 105
+========== SALARY SLIP ==========
+Employee ID   : 105
+Name          : Dilo
+Department    : SALES
+Base Salary   : 25000.0
+Leaves Taken  : 4
+Deduction     : 2800.0
+Final Salary  : 22200.0
+=================================
+========= PAYROLL MANAGEMENT SYSTEM =========
+1. Add Employee
+2. View All Employees
+3. Search Employee
+4. Generate Salary Slip
+5. Exit
+=============================================
+Enter choice:
+
+
+
+/////////////////////////
+Output On Database - sql plus  : 
+/////////////////////////
+
+
+SQL> select * from employee;
+
+        ID NAME               AGE     DEPARTMENT   TOTAL_DAYS   LEAVES_TAKEN   BASE_SALARY   FINAL_SALARY
+---------- ------------------------  ------------ ---------- --------------- -------------  -------------
+       101 Ram                 25     IT              30            2            30000        28000
+       102 Priya               24     HR              30            1            20000        19500
+       103 Arun                27     SALES           30            3            25000        22900
+       104 Divya               26     FINANCE         30            2            28000        26200
+       105 Dilo                20     SALES           30            4            25000        22200
+
+
+SQL> desc employee;
+
+ Name                           
+ --------------------
+ ID                             
+ NAME                           
+ AGE                            
+ DEPARTMENT                     
+ TOTAL_DAYS                     
+ LEAVES_TAKEN                   
+ BASE_SALARY                    
+ FINAL_SALARY                   
+
+
